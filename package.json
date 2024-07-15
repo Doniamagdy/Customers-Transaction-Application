@@ -1,6 +1,6 @@
 {
   "homepage": "https://doniamagdy.github.io/Customers-Transaction-Application/",
-  "name": "c-t-app",
+  "name": "customers-transaction-application-main",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
