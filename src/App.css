@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+body {
+  background-color: #e8f5e9;
+  font-family: "Acme", sans-serif;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+h1 {
+  color: #006161;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+.filters {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-control {
+  margin-right: 15px;
+  padding: 12px;
+  border: 1px solid #006161;
+  border-radius: 6px;
+  width: 220px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.6);
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 15px;
+
+  border-bottom: 1px solid #a5d6a7;
+  text-align: center;
+}
+
+th {
+  background-color: #006161;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f8e9;
+}
+
+tr:hover {
+  background-color: #c8e6c9;
+  cursor: pointer;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+  max-width: 100%;
+  height: 100% !important;
+}
